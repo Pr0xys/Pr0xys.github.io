@@ -1,1 +1,80 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Preload the background image -->
+    <link rel="preload" as="image" href="images/pizza6.jpg">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Big Mamma Gastronomia</title>
+</head>
+<body>
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <button onclick="scrollHome()">Øverst</button>
+        <button onclick="scrollPageUp()">Forrige side</button>
+        <button onclick="scrollPageDown()">Næste side</button>
+        <a href="https://www.facebook.com/profile.php?id=61575382325960" target="_blank" class="social-button">
+            <img src="images/icons8-facebook-48.png" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com/bigmammagastronomia3500?igsh=MWJxY3ExdHNkcGlpNQ==" target="_blank" class="social-button">
+            <img src="images/icons8-instagram-64.png" alt="Instagram" />
+        </a>
+
+        
+    </div>
+
+    <header>
+        <div class="topnav">
+            <a href="menu.html" class="active">Menukort</a>
+            <a href="#about">Om Os</a>
+            <a href="#location">Lokation</a>
+            <a href="#contact">Kontakt</a>
+        </div>
+        <h1>Big Mamma Gastronomia</h1>
+        <div class="header-info-box">
+            <h3>Åbningstider:</h3>
+            <p>Mandag lukket</p>
+            <p>Tirsdag - fredag 11-21</p>
+            <p>Lørdag - søndag 12-21</p>
+            <h3>Kontakt:</h3>
+            <p>Telefon: +45 44444624</p>
+            <p>Adresse: Gammel Hareskovvej 311 C, 3500 Værløse</p>
+        </div>
+        <!-- <h3>Et pizzeria med et originalt italiensk koncept. Heraf kan vi byde jer på mageløse pizzaer, pastaretter, sandwichs & salater</h3> -->
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Om os</h2>
+        <p>Demet er dejlig!</p>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location">
+        <h2>Find os her!</h2>
+        <!-- Replace with an embedded Google Map if desired -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.6289055392012!2d12.404545599999999!3d55.764948399999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524ffd6b245625%3A0xc952bf90c164fbe4!2sBig%20Mamma%20Gastronomia%20V%C3%A6rl%C3%B8se!5e0!3m2!1sen!2sdk!4v1746274591582!5m2!1sen!2sdk" 
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Kontak os</h2>
+        <p>Telefon: +45 44444624</p>
+        
+        
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Big Mamma Gastronomia Værløse. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link External JavaScript -->
+    <script src="scripts.js"></script>
+   
+</body>
+</html>
