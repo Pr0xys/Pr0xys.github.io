@@ -359,6 +359,10 @@ h2 {
     .header-info-box {
         display: none;
     }
+
+    .side-image {
+        display: none;
+    }
 }
 
 /* Very small screens */
